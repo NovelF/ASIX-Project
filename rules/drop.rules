@@ -1,0 +1,2 @@
+drop ICMP any any -> $HOME_NET any (msg: "ICMP Request Blocked"; sid:2; rev:1;)
+drop tcp any any -> $HOME_NET 22 (msg: "SSH Connection Blocked"; sid:3; rev:1;)
