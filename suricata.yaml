@@ -2154,7 +2154,7 @@ rule-files:
   - my.rules
   - /var/lib/suricata/rules/local.rules
   - /etc/suricata/rules/*.rules
-  - /usr/share/suricata/*.rules
+  - /usr/share/suricata/rules/*.rules
 ##
 ## Auxiliary configuration files.
 ##
